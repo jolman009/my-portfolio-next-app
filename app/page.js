@@ -10,7 +10,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
 		{
 			role: 'assistant',
-			content: 'How can I help you learn more about Adrian and his Resume?'
+			content: 'How can I help you learn more about Joel and his Resume?'
 		}
   ]);
 
@@ -40,7 +40,7 @@ export default function Home() {
     <>
       <header>
         <a href="#" className="logo-holder">
-          <div className="logo">L</div>
+          <div className="logo">J</div>
           <div className="logo-text">Portfolio Website</div>
         </a>
         <nav>
@@ -55,7 +55,7 @@ export default function Home() {
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="mailto:hello@adriantwarog.com" className="button">Contact Me</a>
+              <a href="mailto:jolman009@yahoo.com" className="button">Contact Me</a>
             </li>
           </ul>
           <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
@@ -70,16 +70,16 @@ export default function Home() {
           <div className="hero-blue">
             <div>
               <h1><small>Hi I'm</small>
-                Adrian Twarog
+            Joel Guzman
               </h1>
               <p>
-                Design and Developer in Australia who creates educational ontent on YouTube to teach others about HTML, CSS and Javascript. <span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
+              I am committed to the education of new skills in technology that will create professionals and contributors to our society. <span>I share an interest in incorporating my business education with my career in teaching to gain a position within a company that will best use my amalgamation of skills.</span>
               </p>
               <div className="call-to-action">
-                <a href="./Sample_Resume_Template.pdf" className="button black">
+                <a href="./myresume2024.pdf" className="button black">
                   View Resume
                 </a>
-                <a href="mailto:hello@adriantwarog.com" className="button white">
+                <a href="mailto:jolman009@yahoo.com" className="button white">
                   Contact Me
                 </a>
               </div>
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-yellow">
-            <img src="./imgs/hero-image.png" alt="Adrian Twarog" width="100%" />
+            <img src="./imgs/joel-profile.png" alt="Joel Guzman" width="100%" />
           </div>
         </section>
         <section className="container logos">
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi I'm Adrian Twarog, a designer and developer who creates educational content on YouTube to teach others about HTML, CSS and JavaScript.  I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days!
+                Hi I'm Joel Guzman, a designer and developer who creates educational content on YouTube to teach others about HTML, CSS and JavaScript.  I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days!
               </p>
               <p>
                 I'm currently working on a project that uses Azure AI to create a chatbot that can help answer questions about web development.  I'm also working on a project that uses React and Next.js to create a portfolio website design that looks good.
@@ -173,8 +173,8 @@ export default function Home() {
                   </figcaption>
                 </div>
               </figure>
-              <h3>YouTube Content Creator</h3>
-              <div>2020-current</div>
+              <h3>Studying Computer Programming</h3>
+              <div>2024-current</div>
               <p>Content creation online teaching people about how to code using HTML, CSS, JS.</p>
             </article>
             <article>
@@ -186,8 +186,8 @@ export default function Home() {
                   </figcaption>
                 </div>
               </figure>
-              <h3>Moshi Moshi Marketing</h3>
-              <div>20018-2020</div>
+              <h3>HS English Teacher</h3>
+              <div>2007-2024</div>
               <p>Marketing agency building websites and programming them from the ground up. </p>
             </article>
             <article>
@@ -199,8 +199,8 @@ export default function Home() {
                   </figcaption>
                 </div>
               </figure>
-              <h3>Chamber of Commerce</h3>
-              <div>2013-2018</div>
+              <h3>Head Softball Coach</h3>
+              <div>2017-2024</div>
               <p>A small to large business organisation that helps facilitate advice and support.</p>
             </article>
             
@@ -246,7 +246,7 @@ export default function Home() {
               <h3>Azure AI Chatbot</h3>
               <p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
               <p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a project you think I'd be a good fit for, please get in touch!</p>
-              <a href="./Sample_Resume_Template.pdf" className="button black">Download Resume</a>
+              <a href="./myresume2024.pdf" className="button black">Download Resume</a>
             </div>
             <div className="chat-box">
               <div className="scroll-area">
@@ -260,7 +260,7 @@ export default function Home() {
                 </ul>
               </div>
               <form onSubmit={submitForm} className="chat-message">
-                <input type="text" placeholder="Hey Adrian, what skills are you best at?" value={messageInput} onChange={e => setMessageInput(e.target.value)} />
+                <input type="text" placeholder="Hey Joel, what skills are you best at?" value={messageInput} onChange={e => setMessageInput(e.target.value)} />
                 <button className="button black">Send</button>
               </form>
             </div>
